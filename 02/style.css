@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1E1E1E;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: min(875px, 95%);
+  height: 498px;
+  align-items: center; 
+  padding: 0;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: #D9CDF7;
+}
+
+.fotoProduto{
+  display: flex;
+  position: relative;
+  width: 450px;
+  height: 222.96px;
+}
+
+.fotoProduto img {
+  width: 450px;
+  object-fit: cover;
+  position: absolute;
+}
+#estatico{
+  display: block;
+}
+#movendo {
+ display: none;
+}
+.trocaExibicao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: absolute;
+right: 50px;
+top: 8px;
+cursor: pointer;
+
+background: none;
+border: none;
+}
+#inciar{
+  display: block;
+}
+#encerrar{
+  display: none;
+}
+
+.secao2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.infoProduto {
+  display: flex;
+  flex-direction: column;
+  line-height: 100%;
+  color: #271A45;
+  gap: 12px;
+  right: 132px;
+}
+.infoProduto p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;  
+}
+.codigo{
+  font-size: 10px;
+  font-weight: 300;
+}
+.produto{
+  font-family: 'Crimson Pro', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+.valor{
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.67;
+}
+
+.btnComprar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 32px;
+  padding: 8px 16px;
+  gap: 8px;
+  border: 0.5px solid #271A45;
+  border-radius: 999px;
+  background-color: transparent;
+
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #271A45;
+
+  cursor: pointer;
+}
+
